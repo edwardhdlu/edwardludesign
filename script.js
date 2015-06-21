@@ -1,9 +1,9 @@
 $( document ).ready(function() {
 
 var tmax_opts = {
-  delay: 0.0,
+  delay: 0.5,
   repeat: -1,
-  repeatDelay: 2.0,
+  repeatDelay: 2.5,
   yoyo: true
 };
 
