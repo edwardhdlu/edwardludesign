@@ -28,6 +28,10 @@ body {
 	background-attachment: fixed;
 }
 
+#line_title {
+	display: none;
+}
+
 #logo {
 	font-family: "Montserrat-Hairline";
 	color: #dde0d5;
@@ -110,7 +114,7 @@ body {
 #poly {
 	margin: 0 auto;
 	width: 60%;
-	margin-top: 7.5%;
+	margin-top: 7.25%;
 	padding-bottom: 15%;
 }
 
@@ -235,4 +239,51 @@ p {
 
 #about {
 	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 800px) {
+	#item_left {
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+		float: left;
+	}
+
+	#item_middle {
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+		float: left;
+	}
+
+	#item_right {
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+		float: left;
+	}
+
+	#banner {
+		padding-top: 7.25%;
+	}
+
+	#logo {
+		width: 50%;
+		text-align: center;
+		padding-left: 0px;
+		margin: 0 auto;
+
+	}
+
+	#line_title {
+		display: inline;
+		width: 200px;
+		height: 1px;
+		background-color: #dde0d5;
+		
+	}
+
+	#menu {
+		display: none;
+	}
 }

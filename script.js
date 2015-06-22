@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
 var tmax_opts = {
   delay: 0.5,
-  repeat: -1,
+  repeat: 0,
   repeatDelay: 2.5,
   yoyo: true
 };
@@ -10,7 +10,7 @@ var tmax_opts = {
 var tmax_tl           = new TimelineMax(tmax_opts),
     polylion_shapes   = $('svg.polylion > g path, polygon'),
     polylion_stagger  = 0.00475,
-    polylion_duration = 2.0;
+    polylion_duration = 2.5;
 
 var polylion_staggerFrom = {
   scale: 0,
