@@ -241,7 +241,7 @@ p {
 	margin-bottom: 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
 	#item_left {
 		width: 96%;
 		margin-left: 2%;
