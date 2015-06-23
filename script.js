@@ -1,5 +1,23 @@
 $( document ).ready(function() {
 
+$("#services_link").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#services").offset().top - 50
+  }, 1000);
+});
+
+$("#portfolio_link").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#portfolio").offset().top
+  }, 1000);
+});
+
+$("#contact_link").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#contact").offset().top 
+  }, 1000);
+});
+
 var tmax_opts = {
   delay: 0.5,
   repeat: 0,
