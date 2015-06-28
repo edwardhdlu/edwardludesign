@@ -12,9 +12,9 @@ $("#portfolio_link").click(function() {
   }, 1000);
 });
 
-$("#contact_link").click(function() {
+$("#info_link").click(function() {
   $('html, body').animate({
-      scrollTop: $("#contact").offset().top 
+      scrollTop: $("#info").offset().top 
   }, 1000);
 });
 
