@@ -26,22 +26,22 @@ var tmax_opts = {
 };
 
 var tmax_tl           = new TimelineMax(tmax_opts),
-    polylion_shapes   = $('svg.polylion > g path, polygon'),
-    polylion_stagger  = 0.00475,
-    polylion_duration = 2.5;
+    polytext_shapes   = $('svg.polytext > g path, polygon'),
+    polytext_stagger  = 0.00475,
+    polytext_duration = 2.5;
 
-var polylion_staggerFrom = {
+var polytext_staggerFrom = {
   scale: 0,
   opacity: 0,
   transformOrigin: 'center center',
 };
 
-var polylion_staggerTo = {
+var polytext_staggerTo = {
   opacity: 1,
   scale: 1,
   ease: Elastic.easeInOut
 };
 
-tmax_tl.staggerFromTo(polylion_shapes, polylion_duration, polylion_staggerFrom, polylion_staggerTo, polylion_stagger, 0);
+tmax_tl.staggerFromTo(polytext_shapes, polytext_duration, polytext_staggerFrom, polytext_staggerTo, polytext_stagger, 0);
 
 });

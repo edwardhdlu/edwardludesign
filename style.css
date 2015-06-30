@@ -122,7 +122,7 @@ svg polygon {
   opacity: 0;
 }
 
-.polylion {
+.polytext {
 
   > polygon {
     .no-cssanimations &,
@@ -135,7 +135,7 @@ svg polygon {
 
 #services {
 	width: 100%;
-	padding-bottom: 50px;
+	padding-bottom: 125px;
 }
 
 #container {
@@ -198,6 +198,7 @@ p {
 	height: auto;
 	background-color: #414b4b;
 	padding-top: 50px;
+	padding-bottom: 125px;
 	overflow: auto;
 }
 
@@ -263,7 +264,57 @@ p {
 	font-size: 25px;
 }
 
-@media only screen and (max-width: 900px) {
+#nav_arrow {
+	color: #dde0d5;
+	font-family: "Montserrat-Light", sans-serif;
+	text-decoration: none;
+	font-size: 24px;
+	width: 20px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: -29px;
+}
+
+#slant, #slant_port, #slant_info {
+	position: absolute;
+	width: 100%;
+	height: 75px;
+	background: #dde0d5;
+	margin-top: -90px;
+	-webkit-transform: skewY(-2deg);
+	-moz-transform: skewY(-2deg);
+	-ms-transform: skewY(-2deg);
+	-o-transform: skewY(-2deg);
+	transform: skewY(-2deg);
+}
+
+#slant_port {
+	background: #414b4b;
+}
+
+#poly_alt {
+	display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+	#poly {
+		display: none;
+	}
+
+	#poly_alt {
+		display: block;
+		margin: 0 auto;
+		width: 60%;
+		margin-top: 7.25%;
+		padding-bottom: 15%;
+	}
+
+	#slant {
+		margin-top: -120px;
+	}
+	#slant_info {
+		margin-top: -90px;
+	}
 	#item_left {
 		width: 96%;
 		margin-left: 2%;
