@@ -366,5 +366,31 @@ p {
 		width: 94%;
 		padding-left: 2%;
 		padding-right: 2%;
+		font-size: 16px;
+		margin-top: -147px;
 	}
+
+	#port_desc b {
+		font-size: 32px;
+	}
+
+	#line, #line_title, #services_graphic img, #desc {
+		width: 85%;
+	}
+
+	#desc {
+		font-size: 24px;
+		font-family: "Montserrat-Hairline", sans-serif;
+	}
+
+	h1 {
+		font-size: 32px;
+		width: 160px;
+		margin-top: -24px;
+	}
+
+	#logo {
+		font-size: 32px;
+	}
+
 }
