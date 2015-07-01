@@ -1,16 +1,16 @@
 @font-face {
     font-family: Montserrat-Hairline;
-    src: url(Montserrat-Hairline.otf);
+    src: url(fonts/Montserrat-Hairline.otf);
 }
 
 @font-face {
     font-family: Montserrat-Light;
-    src: url(Montserrat-Light.otf);
+    src: url(fonts/Montserrat-Light.otf);
 }
 
 @font-face {
     font-family: Montserrat-Black;
-    src: url(Montserrat-Black.otf);
+    src: url(fonts/Montserrat-Black.otf);
 }
 
 
