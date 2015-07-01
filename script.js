@@ -6,6 +6,12 @@ $("#services_link").click(function() {
   }, 1000);
 });
 
+$("#arrow_link").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#services").offset().top - 50
+  }, 1000);
+});
+
 $("#portfolio_link").click(function() {
   $('html, body').animate({
       scrollTop: $("#portfolio").offset().top
@@ -19,7 +25,7 @@ $("#info_link").click(function() {
 });
 
 var tmax_opts = {
-  delay: 0.5,
+  delay: 0.25,
   repeat: 0,
   repeatDelay: 2.5,
   yoyo: true
