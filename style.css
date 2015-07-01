@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: Montserrat-Black;
-    src: url(fonts/Montserrat-Black.otf);
+    font-family: Montserrat-Bold;
+    src: url(fonts/Montserrat-Bold.otf);
 }
 
 
@@ -271,6 +271,7 @@ p {
 
 #port_desc b {
 	font-size: 25px;
+	font-family: "Montserrat-Bold", sans-serif;
 }
 
 #nav_arrow {
